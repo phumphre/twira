@@ -8,8 +8,8 @@ layout: layouts/base.njk
 This is a newsletter for regular people about common sense and building community. Check out our latest issues below:
 
 <ul>
-  {% for newsletter in collections.newsletters %}
-    <li><a href="{{ newsletter.url }}">{{ newsletter.data.title }}</a></li>
+  {% for pamphlet in collections.pamphlets %}
+    <li><a href="{{ pamphlet.url }}">{{ pamphlet.data.title }}</a></li>
   {% endfor %}
 </ul>
 

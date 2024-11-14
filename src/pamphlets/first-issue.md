@@ -1,6 +1,7 @@
 ---
 title: "First Issue - November 2024"
 layout: layouts/base.njk
+date: 2024-11-15
 ---
 
 ## Welcome to the First Issue!
